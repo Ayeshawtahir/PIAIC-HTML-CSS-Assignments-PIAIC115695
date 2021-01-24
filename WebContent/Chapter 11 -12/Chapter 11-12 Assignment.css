@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+
+
+#main-heading{
+    text-shadow:1px 1px 3px grey ;
+    text-transform: uppercase;
+    font-family: ArialMT;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#link{
+    text-align: center;
+}
+.list {
+    line-height: 2.2;
+}
+
+.para {
+	font-size: 20px;
+	font-family: ArialMT;
+	
+}
+
+.sub-heading::first-letter{
+    font-size: 35px;
+   
+}
+
+.sub-heading{
+    font-size: 25px;
+    font-family: TimesNewRomanPS-BoldItalicMT;
+}

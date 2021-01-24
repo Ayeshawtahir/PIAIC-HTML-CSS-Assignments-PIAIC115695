@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Chapter 7 Assignment</title>
+</head>
+<body>
+	<h1>Chapter # 7 - Forms</h1>
+	<form action="http://www.example.com/login.php" method="POST">
+		<fieldset>
+			<legend>Your Details:</legend>
+			<p>
+				Name: <input type="text" name="firstname" size=35 maxlength=30 required>
+			</p>
+
+			<p>
+				Email: <input type="email" name="email" size=35 maxlength=30>
+			</p>
+
+		</fieldset>
+
+		<fieldset>
+			<legend>Your Review:</legend>
+			<p>
+				How did you hear about us? <select name="hear">
+					<option value="google">Google</option>
+					<option value="friend">Friend</option>
+					<option value="TV">TV ad.</option>
+				</select>
+
+			</p>
+			<p>
+				Would you visit again? <br>
+					<label> 
+						<input type="radio" name="visit" value="Y">Yes 
+					</label>
+					<input id ="N"type="radio" name="visit" value="N">
+					<label for="N">No</label>
+				<input id= "Mb" type="radio" name="visit" value="May be"> 
+				<label for="Mb">May be</label>
+
+			</p>
+
+			<p>
+				Comments: <br>
+				<textarea rows="4" cols="40"></textarea>
+
+			</p>
+			<p>
+				<input id ="SignMe" type="checkbox" name="Signup" value="Yes" checked> 
+				<label for ="SignMe">Sign me up for email updates</label>
+
+			</p>
+			<input type="submit" value="Submit Reviews">
+
+		</fieldset>
+
+
+
+	</form>
+</body>
+</html>
